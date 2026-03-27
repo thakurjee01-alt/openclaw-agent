@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: openclaw-agent
+    runtime: docker
+    plan: free
+    port: 18789
+    healthCheckPath: /
